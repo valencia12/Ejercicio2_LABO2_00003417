@@ -93,7 +93,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
              imgg7 = contar(imgg7);
              img7.setImageResource(array[imgg7]);
              break;
-
+         case R.id.img8:
+             imgg8 = contar(imgg8);
+             img8.setImageResource(array[imgg8]);
+             break;
+         case R.id.img9:
+             imgg9 = contar(imgg9);
+             img9.setImageResource(array[imgg9]);
+             break;
      }
     }
     public  int contar(int i){
